@@ -1,0 +1,12 @@
+.ColorCard {
+  box-sizing: content-box;
+  width: 220px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  // text-transform: uppercase;
+
+  &-swatch {
+    width: 220px;
+    height: 220px;
+  }
+}

@@ -2,7 +2,9 @@ import React from 'react'
 
 function ColorCard(card) {
   return (
-    <div className="ColorCard" style={{ backgroundColor: card.hex }}>
+    <div className="ColorCard">
+      <div className="ColorCard-swatch" style={{ backgroundColor: card.hex }}/>
+      <span>Pantone</span>
       {card.name}
     </div>
   );
