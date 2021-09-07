@@ -1,5 +1,9 @@
+@import "ColorCard";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .App {
-  text-align: center;
+  // text-align: center;
 }
 
 .App-logo {
@@ -32,11 +36,6 @@
   justify-content: space-between;
 }
 
-.ColorCard {
-  width: 220px;
-  height: 220px;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -48,4 +47,8 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+* {
+  box-sizing: border-box;
 }
