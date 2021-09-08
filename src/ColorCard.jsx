@@ -4,8 +4,11 @@ function ColorCard(card) {
   return (
     <div className="ColorCard">
       <div className="ColorCard-swatch" style={{ backgroundColor: card.hex }}/>
-      <span>Pantone</span>
-      {card.name}
+      <div className="ColorCard-data">
+        <p>Pantone</p>
+        <p>{card.code}</p>
+        <p>{card.name}</p>
+      </div>
     </div>
   );
 }

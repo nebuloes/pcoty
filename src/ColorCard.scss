@@ -1,12 +1,21 @@
 .ColorCard {
   box-sizing: content-box;
-  width: 220px;
+  margin: 30px 0;
+  border: 1px solid #c2c2c2;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  // text-transform: uppercase;
 
   &-swatch {
     width: 220px;
     height: 220px;
+  }
+
+  &-data {
+    padding: 20px 15px;
+    font-size: 18px;
+
+    p:first-child {
+      text-transform: uppercase;
+    }
   }
 }
