@@ -10,5 +10,137 @@
     "year": 2001,
     "name": "Fuchsia Rose",
     "code": "17-2031 TPX"
+  },
+  {
+    "hex": "#BC243C",
+    "year": 2002,
+    "name": "True Red",
+    "code": "19-1664 TPX"
+  },
+  {
+    "hex": "#7FCDCD",
+    "year": 2003,
+    "name": "Aqua Sky",
+    "code": "14-4811 TPX"
+  },
+  {
+    "hex": "#E2583E",
+    "year": 2004,
+    "name": "Tigerlily",
+    "code": "17-1456 TCX"
+  },
+  {
+    "hex": "#53B0AE",
+    "year": 2005,
+    "name": "Blue Turquoise",
+    "code": "15-5217 TCX"
+  },
+  {
+    "hex": "#DFCFBE",
+    "year": 2006,
+    "name": "Sand Dollar",
+    "code": "13-1106 TPX"
+  },
+  {
+    "hex": "#9B2335",
+    "year": 2007,
+    "name": "Chili Pepper",
+    "code": "19-1557 TPX"
+  },
+  {
+    "hex": "#5B5EA6",
+    "year": 2008,
+    "name": "Blue Iris",
+    "code": "18-3943 TPX"
+  },
+  {
+    "hex": "#EFC050",
+    "year": 2009,
+    "name": "Mimosa",
+    "code": "14-0848 TPX"
+  },
+  {
+    "hex": "#45B8AC",
+    "year": 2010,
+    "name": "Turquoise",
+    "code": "15-5519 TPX"
+  },
+  {
+    "hex": "#D65076",
+    "year": 2011,
+    "name": "Honeysuckle",
+    "code": "18-2120 TPX"
+  },
+  {
+    "hex": "#DD4124",
+    "year": 2012,
+    "name": "Tangerine Tango",
+    "code": "17-1463 TCX"
+  },
+  {
+    "hex": "#009874",
+    "year": 2013,
+    "name": "Emerald",
+    "code": "17-5641 TPX"
+  },
+  {
+    "hex": "#AD5E99",
+    "year": 2014,
+    "name": "Radiant Orchid",
+    "code": "18-3224 TCX"
+  },
+  {
+    "hex": "#964F4C",
+    "year": 2015,
+    "name": "Marsala",
+    "code": "18-1438 TCX"
+  },
+  {
+    "hex": "#F7CACA",
+    "year": 2016,
+    "name": "Rose Quartz",
+    "code": "13-1520 TCX"
+  },
+  {
+    "hex": "#93A9D1",
+    "year": 2016,
+    "name": "Serenity",
+    "code": "15-3919 TCX"
+  },
+  {
+    "hex": "#88B04B",
+    "year": 2017,
+    "name": "Greenery",
+    "code": "15-0343 TCX"
+  },
+  {
+    "hex": "#5F4B8B",
+    "year": 2018,
+    "name": "Ultra Violet",
+    "code": "18-3838 TCX"
+  },
+  {
+    "hex": "#FA7268",
+    "year": 2019,
+    "name": "Living Coral",
+    "code": "16-1546 TPX"
+  },
+  {
+    "hex": "#0F4C81",
+    "year": 2020,
+    "name": "Classic Blue",
+    "code": "19-4052 TCX"
+  },
+  {
+    "hex": "#F5DF4D",
+    "year": 2021,
+    "name": "Illuminating",
+    "code": "13-0647 TCX"
+  },
+  {
+    "hex": "#939597",
+    "year": 2021,
+    "name": "Ultimate Gray",
+    "code": "17-5104 TCX"
   }
 ]
