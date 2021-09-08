@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header"/>
       <div className="App-body">
-        {cards.map((card, index) => <ColorCard {...card} />)}
+        {cards.map((card, index) => <ColorCard {...card} key={index}/>)}
       </div>
     </div>
   )
