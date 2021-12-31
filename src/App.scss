@@ -16,7 +16,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  height: 100vh;
+  overflow: scroll;
+  padding: 30px;
   transition: background-color 2s ease-in-out;
+}
+
+.App-accent {
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  color: white;
+  transform: rotate(-90deg);
+  transform-origin: top left;
 }
 
 p {

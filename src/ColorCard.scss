@@ -1,19 +1,22 @@
 .ColorCard {
+  $cardSize: 180px;
+
   box-sizing: content-box;
-  margin: 30px 0;
+  margin: 30px 20px;
   border: 1px solid #c2c2c2;
+  border-radius: 2px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 
   &-swatch {
-    width: 220px;
-    height: 220px;
+    width: $cardSize;
+    height: $cardSize;
   }
 
   &-data {
-    padding: 20px 15px;
+    padding: 15px 12px;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 13px;
 
     p:first-child {
       text-transform: uppercase;

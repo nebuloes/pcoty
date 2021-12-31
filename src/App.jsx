@@ -24,6 +24,7 @@ class App extends PureComponent {
         <header className="App-header"/>
         <div className="App-body" style={{ backgroundColor: this.state.background }}>
           {cards.map((card, index) => <ColorCard key={index} card={card} onChangeColor={(color) => this.changeColor(color)}/>)}
+          <div className="App-accent">Pantone</div>
         </div>
       </div>
     )
