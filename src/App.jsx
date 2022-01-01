@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import './App.scss'
 import ColorCard from './ColorCard';
-import * as data from './colors';
+import cards from './colors';
 
 class App extends PureComponent {
   constructor(...args) {
@@ -18,13 +18,14 @@ class App extends PureComponent {
 
 
   render() {
-    const cards = data.default;
     return (
       <div className="App">
-        <header className="App-header"/>
         <div className="App-body" style={{ backgroundColor: this.state.background }}>
-          {cards.map((card, index) => <ColorCard key={index} card={card} onChangeColor={(color) => this.changeColor(color)}/>)}
-          <div className="App-accent">Pantone</div>
+          <div className="App-inner">
+            {cards.map((card, index) => <ColorCard key={index} card={card} onChangeColor={(color) => this.changeColor(color)}/>)}
+            <div className="App-brand headline">Pantone</div>
+            <div className="App-accent headline">Color of the Year</div>
+          </div>
         </div>
       </div>
     )
